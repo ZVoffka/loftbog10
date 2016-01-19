@@ -7,7 +7,7 @@
 	list-style:none;	
 	float: left;
 	font: 10px/1.5 Verdana;
-	width: 16%;
+	width: 20%;
 	margin: 2% 2% 40px 2%;
 }
 .container ul li a{
@@ -26,42 +26,47 @@
 @media only screen and (min-width : 941px){
 	.container ul li:nth-child(5n+1) {
 	   clear:left;
+	}
 }
 
 /*100% - (4 * 4%) = 84% / 4 = 21% */
 
 @media only screen and (min-width: 721px) and (max-width : 941px){
-.container ul li{
-	width: 21%;
+	.container ul li{
+		width: 21%;
    }
 	.container ul li:nth-child(4n+1) {
 	   clear:left;
+	}
 }
 
 /*100% - (3 * 4%) = 88% / 3 = 29.33333% */
 
 @media only screen and (min-width: 531px) and (max-width : 721px){
-.container ul li{
-	width: 29.33333%;
+	.container ul li{
+		width: 29.33333%;
    }
 	.container ul li:nth-child(3n+1) {
 	   clear:left;
+	}
 }
 
 /*100% - (2 * 4%) = 92% / 2 = 46% */
 
 @media only screen and (min-width: 320px) and (max-width : 531px){
-.container ul li{
-	width: 46%;
+	.container ul li{
+		width: 46%;
    }
 	.container ul li:nth-child(2n+1) {
 	   clear:left;
+	}
 }
 
 /*100% - 4% = 96% */
 
 @media only screen and (max-width : 320px){
-.container ul li{
-	width: 96%;
+	.container ul li{
+		width: 96%;
    }
+
 }
