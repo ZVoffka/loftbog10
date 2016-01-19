@@ -23,37 +23,44 @@
 
 /* Media Queries */
 
+@media only screen and (min-width : 941px){
+	.container ul li:nth-child(5n+1) {
+	   clear:left;
+}
+
 /*100% - (4 * 4%) = 84% / 4 = 21% */
 
-@media only screen and (max-width : 940px),
-only screen and (max-dewice-width : 940px){
+@media only screen and (min-width: 721px) and (max-width : 941px){
 .container ul li{
 	width: 21%;
    }
+	.container ul li:nth-child(4n+1) {
+	   clear:left;
 }
 
 /*100% - (3 * 4%) = 88% / 3 = 29.33333% */
 
-@media only screen and (max-width : 720px),
-only screen and (max-dewice-width : 720px){
+@media only screen and (min-width: 531px) and (max-width : 721px){
 .container ul li{
 	width: 29.33333%;
    }
+	.container ul li:nth-child(3n+1) {
+	   clear:left;
 }
 
 /*100% - (2 * 4%) = 92% / 2 = 46% */
 
-@media only screen and (max-width : 530px),
-only screen and (max-dewice-width : 530px){
+@media only screen and (min-width: 320px) and (max-width : 531px){
 .container ul li{
 	width: 46%;
    }
+	.container ul li:nth-child(2n+1) {
+	   clear:left;
 }
 
 /*100% - 4% = 96% */
 
-@media only screen and (max-width : 320px),
-only screen and (max-dewice-width : 320px){
+@media only screen and (max-width : 320px){
 .container ul li{
 	width: 96%;
    }
